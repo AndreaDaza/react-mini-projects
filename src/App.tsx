@@ -46,6 +46,7 @@ const Board: FC<BoardProps> = ({ xIsNext, squares, onPlay }) => {
 
   return (
     <>
+      <h1>Triqui</h1>
       <div className="status">{status}</div>
       {[0, 1, 2].map((row) => (
         <div className="board-row" key={row}>
