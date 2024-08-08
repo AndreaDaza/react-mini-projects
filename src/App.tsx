@@ -139,7 +139,6 @@ const Game = () => {
       </div>
       <div className="game-info">
         <button onClick={toggleOrder}>Toggle Order</button>
-        <button onClick={toggleOrder}>Toggle Order</button>
         <ol>{moves}</ol>
       </div>
     </div>
